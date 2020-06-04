@@ -1,4 +1,4 @@
-number = 43;
+number = 47;
 
 print('Guess a number')
 guess = input()
