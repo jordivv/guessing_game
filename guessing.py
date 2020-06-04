@@ -1,6 +1,8 @@
-number = 45;
+number = 42;
+
 print('Guess a number')
 guess = input()
+
 
 def higher_lower(a_guess):
     if int(guess) > int(number):
@@ -16,7 +18,6 @@ while guess.isdigit() == True:
         higher_lower(guess)
         print('Guess a number')
         guess = input()
-
 
 while guess.isdigit() != True:
     print("please enter an integer - non integers are not allowed")
